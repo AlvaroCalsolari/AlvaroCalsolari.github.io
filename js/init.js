@@ -20,7 +20,7 @@ $( document ).ready(function(){
     } , 3000);  
     $(".scroll").click(function(event){        
         event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+        $('html,body').animate({scrollTop:$(this.hash).offset().top-65}, 600);
    });
 	$("body").fadeIn(1500).removeClass("hidden");
 	

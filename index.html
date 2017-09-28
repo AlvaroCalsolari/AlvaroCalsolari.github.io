@@ -15,21 +15,20 @@ Estrela metade
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!--   Materialize icons     -->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="css/materialize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="js/script.js" ></script>
 	</head>
 	<body class="hidden">
 		<!--  Barra de navegação  -->
 		<div class="navbar-fixed">
-			
 			<nav class="grey lighten-4 z-depth-2">
 				<div class="container">
 					<div class="nav-wrapper">
-						<a id="logo-container" href="#" class="brand-logo font-navbar-brand truncate">Meu Portifólio</a>
-						<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+						<a id="logo-container" href="#home" class="brand-logo font-navbar-brand truncate scroll">Meu Portifólio</a>
+						<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-bars " aria-hidden="true"></i></a>
 						<ul class="right hide-on-med-and-down">
-							<li><a href="#" class="font-navbar-links">Home</a></li>
+							<li><a href="#home" class="font-navbar-links scroll">Home</a></li>
 							<li><a href="#habilidades" class="font-navbar-links scroll">Habilidades</a></li>
 							<li><a href="#portifolio" class="font-navbar-links scroll">Portifólio</a></li>
 							<li><a href="#contato" class="font-navbar-links scroll">Contato</a></li>
@@ -46,10 +45,10 @@ Estrela metade
 			</nav>
 		</div>
 		<!--  Apresentação  -->
-		<section class="indigo">
+		<section id="home" class="parallax-container valign-wrapper">
 			<div class="container no-margin-bottom">
 				<div class="fixed-image-top center-align">
-					<img src="img/minha-imagem.jpg" class="circle responsive-img hoverable" width="160" height="160">
+					<img src="img/minha-imagem.jpg" class="circle responsive-img hoverable" width="175" height="175">
 				</div>
 				<h1 class="center-align title-name">Álvaro Calsolari</h1>
 				<ul class="slides lime accent-1">
@@ -59,114 +58,106 @@ Estrela metade
 					<li class="slide">Windows</li>
 				</ul>
 			</div>
-		</section>
-		<!--  Habilidades      -->
-		<section id="habilidades" class="indigo lighten-1">
-			<br>
-			<h1 class="center-align h1 h1-margin">Habilidades</h1>
-			<br>
-			<div class="container">
-				<div class="row no-margin-bottom">
-					<div class="col s12 m4">
-						<div class="center-align">
-							<i class="material-icons icon-size">language</i>
-							<h2 class="h2">Idiomas</h2>
-							<ul>
-								<li>Inglês</li>
-								<li>Espanhol</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="center-align">
-							<i class="icon-size fa fa-code" aria-hidden="true"></i>
-							<h2 class="h2">Programação</h2>
-							<ul>
-								<li><i class="fa fa-html5" aria-hidden="true"></i>HTML5</li>
-								<li><i class="fa fa-css3" aria-hidden="true"></i>CSS3</li>
-								<li>javaScript</li>
-								<li>jQuery</li>
-								<li>PHP</li>
-								<li><i class="fa fa-wordpress" aria-hidden="true"></i>WordPress</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="center-align">
-							<i class="material-icons icon-size">computer</i>
-							<h2 class="h2">Sistemas Operacionais</h2>
-							<ul>
-								<li><i class="fa fa-windows" aria-hidden="true"></i>Windows</li>
-								<li><i class="fa fa-linux" aria-hidden="true"></i>Linux</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--  Portifólio      -->
-		<section id="portifolio" class="indigo section">
-			<h1 class="h1 h1-margin center-align">Portifólio</h1>
+			<div class="parallax"><img src="img/home-office2.jpg"></div>
+		</div>
+	</section>
+	<!--  Habilidades      -->
+	<section id="habilidades" class="gradient-habilidades">
+		<br>
+		<h1 class="center-align h1 h1-margin">Habilidades</h1>
+		<br>
+		<div class="container">
 			<div class="row no-margin-bottom">
 				<div class="col s12 m4">
-					<div class="card">
-						<div class="card-image">
-							<img src="img/easy-e.jpg" alt="Pagina tributo">
-							<span class="card-title">Página Tributo</span>
-						</div>
-						<div class="card-content grey deep-purple lighten-4">
-							<p>Pagina tributo ao rapper americano easy-e</p>
-							<br>
-							<p>Tecnologias utilizadas/frameworks: HTML , CSS , Bootstrap.</p>
-						</div>
-						<div class="card-action">
-							<a href="https://codepen.io/alvarocs/full/PJPyLr" target="_blank">Confira aqui!</a>
-						</div>
+					<div class="center-align">
+						<i class="fa fa-globe icon-size" aria-hidden="true"></i>
+						<h2 class="h2">Idiomas</h2>
+						<ul>
+							<li>Inglês</li>
+							<li>Espanhol</li>
+						</ul>
 					</div>
 				</div>
-				<!-- 				<div class="col s12 m4">
-						<div class="card">
-								<div class="card-image">
-										<img src="img/easy-e.jpg" alt="Segundo trabalho">
-										<span class="card-title">Segundo trabalho</span>
-								</div>
-								<div class="card-content">
-										<p>Lorem ipsum dolor sit amet, laudem putent per at. Nam id laudem iuvaret efficiantur</p>
-								</div>
-								<div class="card-action">
-										<a href="#">Link 2!</a>
-								</div>
-						</div>
-				</div>
-				-->				<!--
-				<div class="col s4">
-					<div class="card">
-						<div class="card-image">
-							<img src="#" alt="Image 3">
-							<span class="card-title">Imagem 3</span>
-						</div>
+				<div class="col s12 m4">
+					<div class="center-align">
+						<i class="icon-size fa fa-code" aria-hidden="true"></i>
+						<h2 class="h2">Programação</h2>
+						<ul>
+							<li><i class="fa fa-html5" aria-hidden="true"></i>HTML5<script>
+															printStars(3);
+							</script></li>
+							<li><i class="fa fa-css3" aria-hidden="true"></i>CSS3</li>
+							<li>javaScript</li>
+							<li>jQuery</li>
+							<li>PHP</li>
+							<li><i class="fa fa-wordpress" aria-hidden="true"></i>WordPress</li>
+						</ul>
 					</div>
 				</div>
-				-->
+				<div class="col s12 m4">
+					<div class="center-align">
+						<i class="fa fa-desktop icon-size" aria-hidden="true"></i>
+						<h2 class="h2">Sistemas Operacionais</h2>
+						<ul>
+							<li><i class="fa fa-windows" aria-hidden="true"></i>Windows</li>
+							<li><i class="fa fa-linux" aria-hidden="true"></i>Linux</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-		</section>
-		<!--  Contato      -->
-		<section id="contato">
-			<h1 class="h1 h1-margin center-align">Contato</h1>
-			<div class="container">
-				<div class="row no-margin-bottom">
-					<div class="col s12 m6">
-						<h2 class="h2 center-align">Informações Pessoais</h2>
+		</div>
+	</section>
+	<!--  Portifólio      -->
+	<section id="portifolio" class="parallax-container">
+		<h1 class="h1 h1-margin h1-highlight center-align">Trabalhos Completos</h1>
+		<div class="container no-margin-bottom">
+			
+			<div class="row">
+				<div class="col s12 m4">
+					<div class="container">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="img/easy-e.jpg" alt="Pagina tributo">
+								<span class="card-title">Página Tributo</span>
+							</div>
+							<div class="card-content grey deep-purple lighten-4">
+								<p>Pagina tributo ao rapper americano easy-e</p>
+								<br>
+								<p>Tecnologias utilizadas/frameworks: HTML , CSS , Bootstrap.</p>
+							</div>
+							<div class="card-action">
+								<a href="https://codepen.io/alvarocs/full/PJPyLr" target="_blank">Confira aqui!</a>
+							</div>
+						</div>
+					</div>
+					<div class="parallax"><img src="img/home-office3.jpg" alt="portifólio"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  Contato      -->
+	<section id="contato" class="gradient-footer">
+		<h1 class="h1 h1-margin center-align">Contato</h1>
+		<div class="container">
+			<div class="row no-margin-bottom">
+				<div class="col s12 m6">
+					<div class="container">
+						
+						<h2 class="h2">Informações Pessoais</h2>
 						<address>
 							<ul>
-								<li><i class="material-icons">email</i>E-mail : alvarocalsolari@gmail.com</li>
-								<li><i class="material-icons">call</i>Tel : (11)9924-83522</li>
-								<li><i class="material-icons">location_on</i>São Paulo / SP</li>
+								<li><i class="fa fa-envelope" aria-hidden="true"></i> E-mail : alvarocalsolari@gmail.com</li>
+								<li><i class="fa fa-phone" aria-hidden="true"></i> Tel : (11)9924-83522</li>
+								<li><i class="fa fa-map-marker" aria-hidden="true"></i> São Paulo / SP</li>
 							</ul>
 						</address>
 					</div>
-					<div class="col s12 m6">
-						<h2 class="h2 center-align">Redes Sociais</h2>
+				</div>
+				<div class="col s12 m6">
+					<div class="container">
+						
+						<h2 class="h2">Redes Sociais</h2>
 						<ul>
 							<li><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</li>
 							<li><i class="fa fa-github" aria-hidden="true"></i>Github</li>
@@ -175,17 +166,22 @@ Estrela metade
 					</div>
 				</div>
 			</div>
-		</section>
-		<!--  Footer  -->
-		<footer>
-			<div class="container black">
-				<p class="right">By Álvaro Calsolari<sup><i class="fa fa-copyright" aria-hidden="true"></i></sup></p>
+		</div>
+	</section>
+	<!--  Footer  -->
+	<footer class="grey lighten-1">
+		<div class="row no-margin-bottom">
+			<div class="col s12">
+				<div class="container">
+					<p class="right">By Álvaro Calsolari<sup><i class="fa fa-copyright" aria-hidden="true"></i></sup></p>
+				</div>
 			</div>
-		</footer>
-		<!--  Scripts  -->
-		<script src="js/jquery-3.2.1.js"></script>
-		<script src="js/materialize.js"></script>
-		<script src="js/init.js"></script>
-		<script src='js/f062309338.js'></script>
-	</body>
+		</div>
+	</footer>
+	<!--  Scripts  -->
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<script src='js/f062309338.js'></script>
+</body>
 </html>

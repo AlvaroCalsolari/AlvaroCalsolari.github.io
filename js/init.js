@@ -25,9 +25,9 @@ $( document ).ready(function(){
         }
         cicleItems();
     } , 3000);  
+
     $(".scroll").click(function(event){        
         event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top-65}, 1000);
-   });
-	
+        $('html,body').animate({scrollTop:$(this.hash).offset().top-64}, 1000);
+   });        
 });

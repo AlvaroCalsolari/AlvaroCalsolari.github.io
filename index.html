@@ -8,6 +8,8 @@ Estrela vazia
 <i class="fa fa-star-o" aria-hidden="true"></i>
 Estrela metade
 <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+<i class="fa fa-certificate" aria-hidden="true"></i>
 -->
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -37,19 +39,19 @@ Estrela metade
 				</div>
 			</nav>
 		</div>
-<!-- 		<nav class="grey lighten-4 z-depth-2">
+		<ul id="nav-mobile" class="side-nav">
+			<h4 class="center-align">Menu</h4>
+			<li><a href="#">Home</a></li>
+			<li><a href="#habilidades" class="dectivate-menu">Habilidades</a></li>
+			<li><a href="#portifolio">Portifólio</a></li>
+			<li><a href="#contato">Contato</a></li>
+		</ul>
+		<!-- 		<nav class="grey lighten-4 z-depth-2">
 				<div class="container">
-					<div class="nav-wrapper"> -->
-						<ul id="nav-mobile" class="side-nav">
-							<h4 class="center-align">Menu</h4>
-							<li><a href="#">Home</a></li>
-							<li><a href="#habilidades" class="dectivate-menu">Habilidades</a></li>
-							<li><a href="#portifolio">Portifólio</a></li>
-							<li><a href="#contato">Contato</a></li>
-						</ul>
-<!-- 					</div>
-				</div>
-			</nav> -->
+				<div class="nav-wrapper"> -->
+				<!-- 					</div>
+			</div>
+		</nav> -->
 		<!--  Apresentação  -->
 		<section id="home" class="parallax-container valign-wrapper">
 			<div class="container no-margin-bottom">
@@ -64,14 +66,12 @@ Estrela metade
 					<li class="slide">Windows</li>
 				</ul>
 			</div>
-			<div class="parallax"><img src="img/home-office2.jpg"></div>
+			<div class="parallax"><img src="img/home-office4.jpg"></div>
 		</div>
 	</section>
 	<!--  Habilidades      -->
 	<section id="habilidades" class="gradient-habilidades">
-		<br>
 		<h1 class="center-align h1 h1-margin">Habilidades</h1>
-		<br>
 		<div class="container">
 			<div class="row no-margin-bottom">
 				<div class="col s12 m4">
@@ -79,8 +79,8 @@ Estrela metade
 						<i class="fa fa-globe icon-size" aria-hidden="true"></i>
 						<h2 class="h2">Idiomas</h2>
 						<ul>
-							<li>Inglês</li>
-							<li>Espanhol</li>
+							<li>Inglês <script>printStars(4);</script></li>
+							<li>Espanhol <script>printStars(2);</script></li>
 						</ul>
 					</div>
 				</div>
@@ -89,14 +89,12 @@ Estrela metade
 						<i class="icon-size fa fa-code" aria-hidden="true"></i>
 						<h2 class="h2">Programação</h2>
 						<ul>
-							<li><i class="fa fa-html5" aria-hidden="true"></i>HTML5<script>
-															printStars(3);
-							</script></li>
-							<li><i class="fa fa-css3" aria-hidden="true"></i>CSS3</li>
-							<li>javaScript</li>
-							<li>jQuery</li>
-							<li>PHP</li>
-							<li><i class="fa fa-wordpress" aria-hidden="true"></i>WordPress</li>
+							<li><i class="fa fa-html5" aria-hidden="true"></i>HTML5 <script>printStars(3);</script></li>
+							<li><i class="fa fa-css3" aria-hidden="true"></i>CSS3 <script>printStars(3);</script></li>
+							<li>javaScript <script>printStars(3);</script></li>
+							<li>jQuery <script>printStars(2);</script></li>
+							<li>PHP <script>printStars(3);</script></li>
+							<li><i class="fa fa-wordpress" aria-hidden="true"></i>WordPress <script>printStars(3);</script></li>
 						</ul>
 					</div>
 				</div>
@@ -105,9 +103,16 @@ Estrela metade
 						<i class="fa fa-desktop icon-size" aria-hidden="true"></i>
 						<h2 class="h2">Sistemas Operacionais</h2>
 						<ul>
-							<li><i class="fa fa-windows" aria-hidden="true"></i>Windows</li>
-							<li><i class="fa fa-linux" aria-hidden="true"></i>Linux</li>
+							<li><i class="fa fa-windows" aria-hidden="true"></i>Windows <script>printStars(3);</script></li>
+							<li><i class="fa fa-linux" aria-hidden="true"></i>Linux <script>printStars(4);</script></li>
 						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="center-align">
+						
 					</div>
 				</div>
 			</div>
@@ -116,7 +121,7 @@ Estrela metade
 	<!--  Portifólio      -->
 	<section id="portifolio" class="parallax-container">
 		<h1 class="h1 h1-margin h1-highlight center-align">Trabalhos Completos</h1>
-		<div class="container no-margin-bottom">
+		<div class="container">
 			
 			<div class="row">
 				<div class="col s12 m4">
@@ -128,7 +133,7 @@ Estrela metade
 								<span class="card-title">Página Tributo</span>
 							</div>
 							<div class="card-content grey deep-purple lighten-4">
-								<p>Pagina tributo ao rapper americano easy-e</p>
+								<p>Página tributo ao rapper americano easy-e</p>
 								<br>
 								<p>Tecnologias utilizadas/frameworks: HTML , CSS , Bootstrap.</p>
 							</div>
@@ -151,13 +156,13 @@ Estrela metade
 					<div class="container">
 						
 						<h2 class="h2">Informações Pessoais</h2>
-						<address>
-							<ul>
-								<li><i class="fa fa-envelope" aria-hidden="true"></i> E-mail : alvarocalsolari@gmail.com</li>
-								<li><i class="fa fa-phone" aria-hidden="true"></i> Tel : (11)9924-83522</li>
-								<li><i class="fa fa-map-marker" aria-hidden="true"></i> São Paulo / SP</li>
-							</ul>
-						</address>
+						
+						<ul>
+							<li><i class="fa fa-envelope" aria-hidden="true"></i> E-mail : alvarocalsolari@gmail.com</li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i> Tel : (11)9924-83522</li>
+							<li><i class="fa fa-map-marker" aria-hidden="true"></i> São Paulo / SP</li>
+							<li>Idade : 19 anos</li>
+						</ul>
 					</div>
 				</div>
 				<div class="col s12 m6">
